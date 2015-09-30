@@ -12,16 +12,23 @@
 .clearfix:after {
 	clear: both;
 }
+html, body {
+	height: 100%;
+}
 body {
 	min-width: 960px;
+	font-family: 'fira_sansbook';
+	background: #fff url(../img/wrap_bg.png);
 }
 .container {
 	width: 960px;
 	margin: 0 auto;
 }
 .wrapper {
-	font-family: 'fira_sansbook';
-	background: #fff url(../img/wrap_bg.png);
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	padding-bottom: 84px;
 }
 .head{
 	width: 100%;
@@ -224,16 +231,26 @@ border-top: none;
 .info_box.first {
 	padding-bottom: 68px;
 }
-.my_foto {
-	width: 140px;
-	margin-right: 25px;
-	padding:30px 0 0 55px;
-}
-.foto {
+.avatar {
+	position: relative;
+	margin: 35px;
 	border: 5px solid #22A0B8;
 	width: 140px;
 	height: 140px;
 	border-radius: 50% 50%;
+	overflow: hidden;
+}
+.my_foto {
+	width: 140px;
+	position: absolute;
+	top: -20px;
+}
+.foto {
+	width: 100%;	
+}
+.i_am {
+	display: inline-block;
+	width: 340px;
 }
 .bold {
 	font-family: 'fira_sansmedium';
@@ -309,6 +326,9 @@ border-top: none;
 .my_education {
 	padding:0 0 45px 114px;
 }
+.work {
+	position: relative;
+}
 .place_work {
 	margin-top: 30px;
 }
@@ -322,12 +342,14 @@ border-top: none;
 	font-size: 15px;
 	color: #4a545d;
 }
-.place_work:before{
+.work:before{
 	content: ' ';
 	position: absolute;
 	width: 36px;
 	height: 36px;
-	left: 56px;
+	top: 50%;
+	margin-top: -21px;
+	left: -56px;
 	background: url(../img/icon.png) no-repeat -3px 0;
 }
 .place_edu {
@@ -337,6 +359,7 @@ border-top: none;
 }
 .first_edu,
 .second_edu {
+	position: relative;
 	margin-top: 30px;
 }
 .first_edu:before {
@@ -344,7 +367,9 @@ border-top: none;
     position: absolute;
     width: 42px;
     height: 36px;
-    left: 56px;
+    left: -56px;
+    top: 50%;
+		margin-top: -21px;
     background: url(../img/icon.png) no-repeat -1px -41px;
 }
 .second_edu:before{
@@ -352,10 +377,14 @@ border-top: none;
 	position: absolute;
 	width: 36px;
 	height: 36px;
-	left: 56px;
+	left: -56px;
+	top: 50%;
+	margin-top: -21px;
 	background: url(../img/icon.png) no-repeat -1px -84px;
 }
 .page_footer {
+	height: 84px;
+	margin-top: -84px;
 	background: #EFF3F7;
 }
 .page_footer:before{
