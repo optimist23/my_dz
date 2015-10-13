@@ -1,0 +1,145 @@
+.info_box.first {
+	padding-bottom: 68px;
+}
+.avatar {
+	position: relative;
+	margin: 35px;
+	border: 5px solid #22A0B8;
+	width: 140px;
+	height: 140px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+}
+.my_foto {
+	width: 140px;
+	position: absolute;
+	top: -20px;
+}
+.foto {
+	width: 100%;	
+}
+.i_am {
+	display: inline-block;
+	width: 340px;
+}
+.bold {
+	font-family: 'fira_sansmedium';
+	font-weight: bold;
+	color: #4a545d;
+	font-size: 17px;
+}
+.my_info {
+	color: #37424d;
+	font-size: 15px;
+	font-family: 'fira_sansbook';
+}
+.main_skills {
+	font-family: 'fira_sansmedium';
+	font-size: 17px;
+	color: #5a636b;
+}
+.my_skill {
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	background: #3BA8C0;
+	height: 20px;
+	padding: 2px 0 1px 0;
+	background: linear-gradient(to bottom,#3ba8c0 50%,#2e8ca2 100%);
+}
+.my_skill:hover{
+	cursor:pointer;
+	background: linear-gradient(to top,#3ba8c0 50%,#2e8ca2 100%);
+}
+.my_skill.html {
+	position: absolute;
+	right: 210px; 
+	bottom: 80px;
+	width: 52px;
+}
+.my_skill.css {
+	position: absolute;
+	right: 155px; 
+	bottom: 80px;
+	width: 45px;
+}
+.my_skill.javascript {
+	position: absolute;
+	right: 51px; 
+	bottom: 80px;
+	width: 78px;
+	padding: 2px 8px 1px 8px;
+}
+.my_skill.gulp {
+	position: absolute;
+	right: 212px; 
+	bottom: 50px;
+	width: 50px;
+}
+.my_skill.git {
+	position: absolute;
+	right: 162px; 
+	bottom: 50px;
+	width: 40px;
+}
+.my_experience,
+.my_education {
+	padding:0 0 45px 114px;
+}
+.work {
+	position: relative;
+}
+.place_work {
+	margin-top: 30px;
+}
+.organization {
+	margin:0;
+	font-size: 17px;
+	color: #4a545d;
+}
+.period {
+	font-family: 'fira_sanslight';
+	font-size: 15px;
+	color: #4a545d;
+}
+.work:before{
+	content: ' ';
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	top: 50%;
+	margin-top: -21px;
+	left: -56px;
+	background: url(../img/icon.png) no-repeat -3px 0;
+}
+.place_edu {
+	margin:0;
+	font-size: 17px;
+	color: #4a545d;
+}
+.first_edu,
+.second_edu {
+	position: relative;
+	margin-top: 30px;
+}
+.first_edu:before {
+	content: ' ';
+	position: absolute;
+	width: 42px;
+	height: 36px;
+	left: -56px;
+	top: 50%;
+	margin-top: -21px;
+	background: url(../img/icon.png) no-repeat -1px -41px;
+}
+.second_edu:before{
+	content: ' ';
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	left: -56px;
+	top: 50%;
+	margin-top: -21px;
+	background: url(../img/icon.png) no-repeat -1px -84px;

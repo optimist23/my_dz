@@ -1,0 +1,117 @@
+.info_box {
+	padding-right: 0;
+}
+.box_header {
+	background: #48cbe8;
+	color: #fff;
+	font-size: 27px;
+	padding: 37px 56px 36px 56px;
+	border-bottom: 18px solid #67dffa;
+	margin-bottom: 46px;
+}
+.form_container {
+	width: 402px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.form_item {
+	width: 191px;
+	margin-bottom: 20px;
+}
+.labl_form {
+	color: #959aa8;
+}
+.inpt {
+	width: 190px;
+	font-size: 13px;
+	color: #48CBE8;
+	border: 1px solid #48CBE8;
+	border-radius: 2px;
+	text-indent: 10px;
+	padding:8px 0;
+}
+.inpt::-webkit-input-placeholder {
+	color: #48cbe8;
+	text-indent: 10px;
+}
+.inpt:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+.inpt::-moz-placeholder {
+	color: #48cbe8;
+	text-indent: 10px;
+}
+.inpt:-ms-input-placeholder {
+	color: #48cbe8;
+	text-indent: 10px;
+}
+.for_message {
+	width: 380px;
+	height: 175px;
+	resize: none;
+	color: #48CBE8;
+	font-size: 13px;
+	border: 1px solid #48CBE8;
+	border-radius: 2px;
+	text-indent: 10px;
+	padding:5px 10px;
+	margin-bottom: 18px;
+}
+.for_message::-webkit-input-placeholder {
+	color: #48cbe8;
+	text-indent: 10px;
+}
+.for_message:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+.for_message::-moz-placeholder {
+	color: #48cbe8;
+	text-indent: 10px;
+}
+.for_message:-ms-input-placeholder {
+	color: #48cbe8;
+	text-indent: 10px;
+}
+.send {
+	background: #48cbe8;
+	border-bottom:3px solid #3BA8C0;
+}
+.res {
+	background: #849db5;
+	border-bottom:3px solid #687b8f;
+}
+.send,
+.res {
+	color: #fff;
+	border-top: none;
+	border-left:none;
+	border-right:none;
+	-webkit-border-radius :5px;
+	-moz-border-radius :5px;
+	-o-border-radius :5px;
+	border-radius:5px;
+	padding: 2px 22px;	
+}
+.send:hover,
+.res:hover {
+	margin-top: 3px;
+	border-bottom: none;
+}
+.cap4 {
+	position: relative;
+	margin-bottom:22px;
+}
+/* Временный блок */
+
+ .capch {
+ 	background: #fbfcfd;
+ 	width: 188px;
+ 	height: 76px;
+ }
+ .capch_inpt {
+	position: absolute;
+	right: 0;
+	top: 20%;
+ }
+
+/* Временный блок */
