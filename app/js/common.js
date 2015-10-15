@@ -1,3 +1,12 @@
 $(document).ready(function(){
-		console.log("я на главной странице");
-	});
+		$("#add_proj").on('click', function(e) {
+			e.preventDefault();
+			$("#add_new_project").bPopup({
+				speed:650,
+				transition: 'slideIn',
+				transitionClose: 'slideBack'
+			});
+		});
+
+
+	}); // --> END READY <--

@@ -91,7 +91,7 @@
 	top: -35px;
 	left:40%;
 }
-.add_new_project {
+#add_new_project {
 	display: none;
 	width: 362px;
 	margin: 0 auto;
@@ -110,25 +110,26 @@
 	position: relative;
 	background: #48cbe8;
 	color: #fff;
-	font-size: 25px;
 	padding: 12px 0px 8px 10px;
 	border-bottom: 18px solid #67dffa;
 	margin-bottom: 12px;
 }
-.box_header:after {
-	content: ' ';
+.close {
 	position: absolute;
-	display: block;
-	cursor:pointer;
-	width: 26px;
-	height: 26px;
-	right: 12px;
-	top: 21px;
-	z-index:5;
-	background: url(../img/icon.png) no-repeat -49px -90px;
+	display: inline-block;
+	font-size: 19px;
+	right: 10px;
+	top: 16px;
+	background: inherit;
+	border: 2px solid #fff;
+	border-radius: 50% 50%;
+	width: 30px;
+	height: 30px;
+	padding: 0;
 }
 .new_proj_zag {
 	margin: 0;
+	font-size: 25px;
 	padding-left: 10px;
 }
 .new_proj_form {
